@@ -1,7 +1,12 @@
 /*this is a css comment*/
 
 body {
-    font-family: AvantGarde;
+    font-family: NewTimesRoman;
     font-size: 18px; 
-    font-family: "AvantGarde";
+    font-family: "NewTimesRoman";
+}
+
+header, footer {
+    background-color: cadetblue;
+    color: black
 }
