@@ -1,0 +1,39 @@
+/*this is a css comment*/
+
+body {
+    font-family: NewTimesRoman;
+    font-size: 18px; 
+    font-family: "NewTimesRoman";
+}
+
+header {
+    background-color: cadetblue;
+    color: black
+}
+
+footer {
+    background-color: cadetblue;
+    color: black
+}
+
+.site-title {
+    color: red;
+}
+
+img {
+    max-width: 100px;
+    max-height: 120px;
+}
+
+.site-title h1 {
+    color: olive;
+}
+
+img {
+    box-shadow: 2px 1px;
+    color: black
+}
+
+link:active {
+    color: blue;
+  }

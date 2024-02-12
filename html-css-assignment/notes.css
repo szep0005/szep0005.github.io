@@ -1,0 +1,12 @@
+li {
+    list-style-type: square;
+  }
+
+  /* Selects the second li element in a list */
+li:nth-child {
+    background: lightgreen;
+  }
+
+  link.hover {
+    color: hotpink;
+  }
