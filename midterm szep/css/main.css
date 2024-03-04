@@ -1,14 +1,11 @@
 body {
-    margin: 0;
     font-family: 'Times New Roman', Times, serif;
-}
-
-.image {
-	background-image: url("images/seahorse.jpg");
-	height: 250px;
+    background-color: lightblue;
 }
 
 .header {
+	background-image: url("images/seahorse.jpg");
+	height: 250px;
 	padding-top: 50px;
 	color: white;
 	font-size: 20px;
