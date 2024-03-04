@@ -1,13 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: lightblue;
 }
-
-.header {
-	background-image: url("images/seahorse.jpg");
-	height: 250px;
-	padding-top: 50px;
-	color: white;
-	font-size: 20px;
-	text-align: center;
+.box{
+    width: 100px;
+    height: 100px;
+    border: 5px black;
+    padding: 10px;
+    margin: 10px;
+    background: white;
 }
