@@ -22,11 +22,12 @@ body {
   margin: 0 auto;
 }
 
-.header img {
+.header {
   width: 100px; 
   height: auto;
   background-color: black;
   font-style: italic;
+  color: orange;
 }
 
 div > a {
