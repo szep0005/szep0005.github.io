@@ -109,9 +109,14 @@ iframe {
   border: none;
 }
 
+.footer {
+  background-color: black
+  text-align: left;
+  color: orange;
+}
+
 @media (max-width: 768px) {
   .container {
       width: 90%;
-      background-color: black;
   }
 }
