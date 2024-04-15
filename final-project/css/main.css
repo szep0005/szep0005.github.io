@@ -140,7 +140,7 @@ div > a {
   margin-top: 20px;
 }
 
-.search-box input[type="text"] {
+.search-box input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
