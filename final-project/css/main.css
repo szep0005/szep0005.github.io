@@ -10,6 +10,26 @@ body {
   background-color: #f8f8f8;
   color: #333;
   max-width: 1200px;
+  background-image: url("images/main-banner.jpg");
+  text-align: left;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  background-color: #c78c06;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 
 .navbar {
@@ -29,7 +49,7 @@ body {
   height: auto;
   background-color: black;
   font-style: italic;
-  color: orange;
+  color: #ffe6ac;
 }
 
 div > a {
