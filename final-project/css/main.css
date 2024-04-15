@@ -5,24 +5,64 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
-  line-height: 1.6;
-  background-color: #f8f8f8;
-  color: #333;
-  max-width: 1200px;
-  background-image: url("images/main-banner.jpg");
+  background-color: white;
   text-align: left;
 }
 
+.navbar-background {
+  background-color: #c78c06;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: left;
+}
+
+.header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.container a:hover {
+  color: lightgray;
+}
+
+.search-box input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #c78c06;
+}
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 10px;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
 }
 
 .item {
@@ -36,6 +76,43 @@ body {
   background-color: #333;
   color: #fff;
   padding: 15px 0;
+}
+
+header{
+  padding: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-image: url("images/logo.jpg");
+}
+
+.container {
+  background-color: #f8f8f8;
+  background-image: url("images/main-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px;
+  text-align: center;
+}
+
+.banner h1 {
+  margin-bottom: 20px;
+  text-align: left;
+  color: white;
+}
+
+.banner p {
+  margin-bottom: 20px;
+  text-align: left;
+  color: black;
+}
+
+.banner button {
+  width: 25px;
+  height: 10px;
+  background-color: #c78c06;
+  color: black;
 }
 
 .container {
@@ -101,9 +178,10 @@ p {
 .section {
   margin-bottom: 30px;
 }
-  .contact-form input,
-  .contact-form textarea,
-  .contact-form button {
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
