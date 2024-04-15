@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   background-color: #f8f8f8;
   color: #333;
+  max-width: 1200px;
 }
 
 .navbar {
@@ -124,11 +125,14 @@ iframe {
 .footer {
   background-color: black;
   text-align: left;
-  color: orange;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 760px) {
   .container {
-      width: 90%;
+      width: 760px;
   }
+  .box {
+      width: 150px;
+  }
+  
 }
